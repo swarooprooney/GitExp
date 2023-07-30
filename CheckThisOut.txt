@@ -10,4 +10,12 @@ git commit -am [Message] (add and commit together)
 
 git config --list (list all the keys in the config)
 
-git config --glonal alias.ac "commit -am" (add an alias "ac" which will invoke the command "commit -am")
+git config --global alias.ac "commit -am" (add an alias "ac" which will invoke the command "commit -am")
+
+git revert [hash value of the previous commit] (takes you back one commit)
+
+git stash [to stash the changes without adding to repo]
+
+git stash pop [to get all the stashed changes]
+
+git stash save "stashed changes" [you can name your stashed changes using this option]
