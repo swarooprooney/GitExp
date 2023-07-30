@@ -1,3 +1,13 @@
-I have done a new thingy
+git add [FileName](add a file to git repo)
 
-add me as well
+git commit -m [Message](commit the file to the git repo)
+
+git status (to check the status of the current repo)
+
+git push (push current changes to remote)
+
+git commit -am [Message] (add and commit together)
+
+git config --list (list all the keys in the config)
+
+git config --glonal alias.ac "commit -am" (add an alias "ac" which will invoke the command "commit -am")
