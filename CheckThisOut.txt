@@ -11,13 +11,3 @@ git commit -am [Message] (add and commit together)
 git config --list (list all the keys in the config)
 
 git config --glonal alias.ac "commit -am" (add an alias "ac" which will invoke the command "commit -am")
-
-git commit --amend -m [Message] (to update the latest commit)
-
-####################
-git add . [If you have forgotten to add a file to the previous commit]
-
-git commit --amend --no-edit [this option doesn't change the message but add the files that were added in the previous step]
-
-
-let me add some junk
